@@ -1,0 +1,14 @@
+true
+false
+"
+Char = 'c'
+String = "hi"
+'
+begin while (3>2) is true
+begin read add 3,4 var c end
+def( 2 + 5)
+Read(23 >2)
+Var( 23 * 4)
+VAL (a * 4)
+(If a > 4) then (a = 5)
+MAX (a + b > 100)
