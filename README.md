@@ -1,2 +1,1 @@
-# CSI311programming
-This is for ICSI333 programming lever/parser/interpreter/
+Discusses interpreters, compilers, transpires and virtual machines, including lexical analysis, parsing, semantic analysis, optimization, code generation.
