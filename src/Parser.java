@@ -88,7 +88,9 @@ public class Parser {
 //  String s; 
  
        if (e1.isEmpty()) 
-      e1 = callFunction(); //FuctionNode(String s, List<Node> l)
+      {
+          e1 = callFunction();
+      } //FuctionNode(String s, List<Node> l)
  
        Node e2; // next to e1 node
       //See whether there is more tokens. such as operators + , - 
@@ -155,7 +157,9 @@ public class Parser {
  
  //if thisStatement is not empty then add it to the list. 
  while((s = statement()) != null)
- statementsList.add(s); 
+ {
+     statementsList.add(s);
+ } 
  
  //return the nodes from the statementsList. 
         if (!statementsList.isEmpty()) {
